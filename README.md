@@ -126,49 +126,6 @@ The model shows balanced performance across both classes, successfully identifyi
 - **Matplotlib**: Data visualization
 - **Seaborn**: Statistical data visualization
 
-## Clinical Applications
-
-This model can be used for:
-
-1. **Early Screening**: Preliminary assessment tool for identifying individuals who may benefit from further neurological evaluation
-2. **Remote Monitoring**: Track disease progression through periodic voice recordings
-3. **Accessibility**: Provide screening in areas with limited access to specialized neurological care
-4. **Cost-Effective**: Reduce healthcare costs by enabling initial screening before expensive diagnostic procedures
-
-## Future Improvements
-
-Potential enhancements to improve model performance and applicability:
-
-1. **Larger Dataset**: Collect more voice samples to improve model generalization
-2. **Deep Learning**: Explore neural networks for automatic feature extraction from raw audio
-3. **Multi-Class Classification**: Extend to predict disease severity stages
-4. **Real-Time Analysis**: Develop a mobile application for on-device voice analysis
-5. **Ensemble Methods**: Combine multiple algorithms (SVM, XGBoost, Neural Networks) for improved accuracy
-6. **Longitudinal Studies**: Track voice changes over time to predict disease progression
-7. **Additional Biomarkers**: Incorporate other non-invasive measurements (gait analysis, handwriting)
-8. **Cross-Validation**: Implement k-fold cross-validation on the entire dataset for more robust performance estimates
-
-## Usage
-
-To run this project:
-
-1. Clone the repository
-2. Install required dependencies: `pip install pandas numpy scikit-learn matplotlib seaborn`
-3. Download the Parkinson's Disease dataset from UCI Machine Learning Repository
-4. Open and run the Jupyter notebook
-
-## Disclaimer
-
-This project is for educational and research purposes only. The model should not be used as a substitute for professional medical diagnosis. Parkinson's Disease diagnosis requires comprehensive clinical evaluation by qualified healthcare professionals. This tool may serve as a preliminary screening aid but should always be followed by proper medical consultation.
-
-## License
-
-This project is available for educational and research purposes.
-
 ## Acknowledgments
 
 Dataset sourced from the UCI Machine Learning Repository. Original data collected by Max Little of the University of Oxford, in collaboration with the National Centre for Voice and Speech, Denver, Colorado.
-
-## References
-
-- Little, M. A., McSharry, P. E., Roberts, S. J., Costello, D. A., & Moroz, I. M. (2007). Exploiting nonlinear recurrence and fractal scaling properties for voice disorder detection. BioMedical Engineering OnLine, 6(1), 23.
